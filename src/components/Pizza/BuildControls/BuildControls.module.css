@@ -1,0 +1,65 @@
+.ControlSection {
+    background-color: rgb(1, 163, 1);
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+
+.ControlSection select {
+    width: 120px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.ControlSection select:hover {
+    cursor: pointer;
+}
+
+.SelectedToppingsSection {
+    background-color: rgb(1, 163, 1);
+    color: black;
+    font-size: 1rem;
+    position: relative;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    justify-content: space-around;
+}
+
+.ButtonSection {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.ButtonSection button {
+    margin: 0 8%;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(165, 97, 0);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 1px #ccc;
+    color: white;
+    font-size: 1.2em;
+}
+
+.ButtonSection button:hover {
+    cursor: pointer;
+    background-color: rgb(224, 132, 2);
+}
+
+@media (max-width: 499px) {
+    .ButtonSection button {
+        width: 130px;
+        height: 60px;
+        font-size: 1em;
+        margin: 0 2%;
+    }
+    .SelectedToppingsSection {
+        grid-template-columns: auto auto;
+    }
+}

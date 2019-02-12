@@ -1,0 +1,23 @@
+.MenuButton {
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+}
+
+.MenuButton:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+}
+
+.Line {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(39, 201, 61);
+    margin: 8px 8px;
+    border-radius: 2px;
+}
+
+@media (min-width: 499px) {
+    .MenuButton {
+        display: none;
+    }
+}

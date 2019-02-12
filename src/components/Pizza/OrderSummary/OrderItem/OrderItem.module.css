@@ -1,0 +1,38 @@
+.OrderItem {
+    width: 94%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.Heading {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.Price {
+    position: relative;
+    float: left;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.Symbol {
+    position: relative;
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+    width: 5%;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.Symbol:hover {
+    cursor: pointer;
+}

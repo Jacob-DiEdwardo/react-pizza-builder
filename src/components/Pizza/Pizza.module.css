@@ -1,0 +1,15 @@
+.Pizza {
+    width: 100%;
+    margin: 0 0 20px 0;
+    height: 400px;
+    overflow: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 499px) {
+    .Pizza {
+        height: 300px;
+    }
+}

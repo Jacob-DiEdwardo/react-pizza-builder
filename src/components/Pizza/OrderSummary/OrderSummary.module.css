@@ -1,0 +1,26 @@
+.OrderItemsOverflow {
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+}
+
+.Title {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.Summary h3 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.ButtonSection {
+    text-align: center;
+}
+
+@media (max-width: 499px) {
+    .Summary button {
+        font-size: 1em;
+    }
+}

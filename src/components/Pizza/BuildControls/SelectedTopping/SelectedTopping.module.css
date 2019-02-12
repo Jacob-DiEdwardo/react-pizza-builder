@@ -1,0 +1,28 @@
+.SelectedTopping {
+    width: 140px;
+    height: 25px;
+    background-color: white;
+    margin: 0 10px;
+}
+
+.SelectedTopping:hover {
+    cursor: pointer;
+}
+
+.toppingName {
+    width: 100px;
+    position: relative;
+    float: left;
+    padding: 0 0 0 10px;
+    font-weight: bold;
+}
+
+.Symbol {
+    width: 20px;
+    text-align: right;
+    position: relative;
+    float: right;
+    padding: 0 10px 0 0;
+    color: red;
+    font-weight: bold;
+}

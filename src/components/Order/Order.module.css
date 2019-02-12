@@ -1,0 +1,18 @@
+.Order {
+    width: 50%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 20px;
+    margin: 30px auto;
+    box-sizing: border-box;
+}
+
+.Details {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 5px;
+}
+
+.Details:hover {
+    cursor: pointer;
+}

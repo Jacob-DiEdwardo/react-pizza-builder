@@ -1,0 +1,33 @@
+.Footer {
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Footer img {
+    height: 40px;
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 30px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.SocialMedia {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.Copyright {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 5px;
+}
