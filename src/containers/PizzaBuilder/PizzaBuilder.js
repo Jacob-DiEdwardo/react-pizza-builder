@@ -12,7 +12,7 @@ import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import PropTypes from 'prop-types';
 import * as actions from '../../store/actions/index';
 
-class PizzaBuilder extends Component {
+export class PizzaBuilder extends Component {
 
     componentDidMount() {
         this.props.onInitToppings();
