@@ -7,6 +7,7 @@ import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../store/actions/index';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import Aux from '../../hoc/Auxiliary/Auxiliary';
+import PropTypes from 'prop-types';
 
 class Orders extends Component {
 
@@ -57,6 +58,13 @@ const mapDispatchToProps = dispatch => {
     return {
         onFetchOrders: (token, userId) => dispatch(actions.fetchOrders(token, userId))
     }
+}
+
+Orders.propTypes = {
+    orders: PropTypes.array,
+    loading: PropTypes.bool,
+    token: PropTypes.string,
+    userId: PropTypes.string
 }
  
 export default connect(mapStateToProps, mapDispatchToProps)(withErrorHandler(Orders, axios));

@@ -9,6 +9,7 @@ import OrderSummary from '../../components/Pizza/OrderSummary/OrderSummary';
 import axios from '../../axios-orders';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
+import PropTypes from 'prop-types';
 import * as actions from '../../store/actions/index';
 
 class PizzaBuilder extends Component {
@@ -92,6 +93,15 @@ const mapDispatchToProps = dispatch => {
         onCalculateTotalPrice: () => dispatch(actions.calculateTotalPrice()),
         onPurchaseInit: () => dispatch(actions.purchaseInit())
     }
+}
+
+PizzaBuilder.propTypes = {
+    toppings: PropTypes.object,
+    prc: PropTypes.number,
+    cart: PropTypes.array,
+    totalPrc: PropTypes.node,
+    err: PropTypes.bool,
+    purchasing: PropTypes.bool
 }
  
 export default connect(mapStateToProps, mapDispatchToProps)(withErrorHandler(PizzaBuilder, axios));
