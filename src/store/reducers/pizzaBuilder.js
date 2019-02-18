@@ -76,7 +76,6 @@ const removeTopping = (state, action) => {
 };
 
 const setToppings = (state, action) => {
-    console.log(action.toppings);
     return updateObject(state, {
         pizzaToppings: action.toppings,
         price: 8,
