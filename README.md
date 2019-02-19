@@ -1,4 +1,4 @@
-Visit the site here!  https://react-pizza-builder-40b76.firebaseapp.com/pizza-builder
+Visit the site here!  https://react-pizza-builder-40b76.firebaseapp.com/
 
 Potential Updates:
 Re-do design, color-scheme
