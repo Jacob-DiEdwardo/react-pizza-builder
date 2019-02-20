@@ -1,17 +1,17 @@
 Visit the site here!  https://react-pizza-builder-40b76.firebaseapp.com/pizza-builder
 
-Potential Updates:
+Proposed Updates:
+Checkout/Contact Data style individual orders and contact form to align correctly
 Re-do design, color-scheme
 Fix pizza topping styling (more of each topping, sized with percentages)
 Use small pizzas instead of ingredient lists in Order Summary and Orders components
 In BuildControls component, disable checkout button with hover property and popup
   that reads "Please add pizza to cart to checkout" (instead of using the alert)
 Better design for Error Message
-Add prop-type validation (for internal collaborative work, good to know!!)
 **GLOBAL ERROR HANDLING
 **Cookies for global state?
 VS CODE Spell-check extension?
-Paypal "sandbox" for payment?
+Paypal "sandbox" for payment? STRIPE
 Use external package for contact data validation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
