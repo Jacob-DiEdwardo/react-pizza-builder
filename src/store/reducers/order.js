@@ -16,6 +16,7 @@ const purchasePizzaStart = (state, action) => {
 };
 
 const purchasePizzaSuccess = (state, action) => {
+    alert("Purchase Complete! Thank you!");
     const newOrder = updateObject(action.orderData, {id: action.orderId})
     return updateObject(state, {
         loading: false,
