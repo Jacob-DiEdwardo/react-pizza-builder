@@ -1,95 +1,96 @@
 .Crust {
     background-color: rgb(255, 163, 25);
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 50%;
     border-radius: 50%;
     margin: auto;
 }
 
 .Sauce {
     background-color: rgb(255, 50, 22);
-    width: 360px;
-    height: 360px;
+    width: 45%;
+    height: 90%;
     border-radius: 50%;
-    margin: 20px 20px;
+    margin: 2.5% 2.5%;
     position: absolute;
 }
 
 .Cheese {
     background-color: rgb(252, 239, 58);
-    width: 336px;
-    height: 336px;
+    width: 92%;
+    height: 91%;
     border-radius: 50%;
-    margin: 12px 12px;
+    margin: 4.2% 4.2%;
     position: absolute;
 }
 
 /* This wraps each topping-group!! */
 .IngredientLayer {
-    width: 336px;
-    height: 336px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     position: absolute;
 }
 
 .Pepperoni1 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    top: 35px;
-    left: 60px;
+    top: 30%;
+    left: 10%;
 }
 
 .Pepperoni2 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    top: 35px;
-    right: 60px;
+    top: 30%;
+    right: 10%;
 }
 
 .Pepperoni3 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    right: 20px;
+    bottom: 13%;
+    right: 20%;
 }
 
 .Pepperoni4 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    bottom: 20px;
-    left: 130px;
+    bottom: 13%;
+    left: 20%;
 }
 
 .Pepperoni5 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    bottom: 100px;
-    left: 20px;
+    bottom: 40%;
+    left: 40%;
 }
 
 .Pepperoni6 {
     background-color: rgb(201, 40, 0);
-    width: 60px;
-    height: 60px;
+    width: 20%;
+    height: 20%;
     border-radius: 50%;
     position: absolute;
-    top: 132px;
-    left: 136px;
+    top: 5%;
+    left: 40%;
 }
 
 .Mushroom1 {
@@ -409,18 +410,3 @@
     height: 25px
 }
 
-
-@media (max-width: 499px) {
-    .Crust {
-        height: 300px;
-        width: 300px;
-    }
-    .Sauce {
-        height: 260px;
-        width: 260px;
-    }
-    .Cheese {
-        height: 236px;
-        width: 236px;
-    }
-}
