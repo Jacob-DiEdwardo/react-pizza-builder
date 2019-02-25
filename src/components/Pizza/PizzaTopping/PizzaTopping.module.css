@@ -94,189 +94,288 @@
 }
 
 .Mushroom1 {
-    width: 40px;
-    height: 36px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    top: 100px;
-    left: 90px;
+    top: 10%;
+    left: 10%;
     transform: rotate(130deg);
 }
 
 .Mushroom2 {
-    width: 40px;
-    height: 36px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    top: 100px;
-    right: 90px;
+    top: 10%;
+    right: 10%;
     transform: rotate(230deg);
 }
 
 .Mushroom3 {
-    width: 40px;
-    height: 36px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    bottom: 110px;
-    right: 80px;
+    bottom: 25%;
+    right: 0%;
     transform: rotate(305deg);
 }
 
 .Mushroom4 {
-    width: 40px;
-    height: 36px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    bottom: 110px;
-    left: 80px;
+    bottom: 25%;
+    left: 0%;
     transform: rotate(40deg);
 }
 
+.Mushroom5 {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    transform: rotate(0deg);
+}
+
+.Mushroom6 {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    transform: rotate(180deg);
+}
+
 .MushroomImage {
-    width: 40px;
-    height: 36px;
+    width: 80%;
+    height: 70%;
 }
 
 .Sausage1 {
     background-color: rgb(138, 131, 130);
-    width: 20px;
-    height: 20px;
+    width: 7%;
+    height: 7%;
     border-radius: 50%;
     position: absolute;
-    top: 20px;
-    left: 150px;
+    top: 5%;
+    left: 40%;
 }
 
 .Sausage2 {
     background-color: rgb(138, 131, 130);
-    width: 20px;
-    height: 20px;
+    width: 7%;
+    height: 7%;
     border-radius: 50%;
     position: absolute;
-    top: 120px;
-    right: 30px;
+    top: 30%;
+    right: 5%;
 }
 
 .Sausage3 {
     background-color: rgb(138, 131, 130);
-    width: 20px;
-    height: 20px;
+    width: 7%;
+    height: 7%;
     border-radius: 50%;
     position: absolute;
-    bottom: 50px;
-    right: 80px;
+    bottom: 10%;
+    right: 20%;
 }
 
 .Sausage4 {
     background-color: rgb(138, 131, 130);
-    width: 20px;
-    height: 20px;
+    width: 7%;
+    height: 7%;
     border-radius: 50%;
     position: absolute;
-    bottom: 50px;
-    left: 80px;
+    bottom: 10%;
+    left: 20%;
 }
 
 .Sausage5 {
     background-color: rgb(138, 131, 130);
-    width: 20px;
-    height: 20px;
+    width: 7%;
+    height: 7%;
     border-radius: 50%;
     position: absolute;
-    top: 120px;
-    left: 30px;
+    top: 30%;
+    left: 5%;
+}
+
+.Sausage6 {
+    background-color: rgb(138, 131, 130);
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.Sausage7 {
+    background-color: rgb(138, 131, 130);
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 30%;
+}
+
+.Sausage8 {
+    background-color: rgb(138, 131, 130);
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+}
+
+.Sausage9 {
+    background-color: rgb(138, 131, 130);
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+}
+
+.Sausage10 {
+    background-color: rgb(138, 131, 130);
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
 }
 
 .Meatball1 {
     background-color: rgb(136, 84, 0);
-    width: 35px;
-    height: 35px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     position: absolute;
-    top: 140px;
-    left: 80px;
+    top: 10%;
+    left: 20%;
 }
 
 .Meatball2 {
     background-color: rgb(136, 84, 0);
-    width: 35px;
-    height: 35px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     position: absolute;
-    top: 140px;
-    right: 80px;
+    top: 10%;
+    right: 20%;
 }
 
 .Meatball3 {
     background-color: rgb(136, 84, 0);
-    width: 35px;
-    height: 35px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     position: absolute;
-    bottom: 90px;
-    left: 150px;
+    bottom: 30%;
+    right: 5%;
 }
 
 .Meatball4 {
     background-color: rgb(136, 84, 0);
-    width: 35px;
-    height: 35px;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     position: absolute;
-    top: 70px;
-    left: 150px;
+    bottom: 5%;
+    left: 45%;
+}
+
+.Meatball5 {
+    background-color: rgb(136, 84, 0);
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+}
+
+.Meatball6 {
+    background-color: rgb(136, 84, 0);
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 45%;
 }
 
 .Onion1 {
     background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
-    height: 40px;
-    width: 15px;
+    height: 16%;
+    width: 6%;
     border-radius: 0 250px 250px 0;
     position: absolute;
-    top: 20px;
-    right: 130px;
+    top: 5%;
+    right: 45%;
     transform: rotate(30deg);
 }
 
 .Onion2 {
     background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
-    height: 40px;
-    width: 15px;
+    height: 16%;
+    width: 6%;
     border-radius: 0 250px 250px 0;
     position: absolute;
-    bottom: 30px;
-    right: 120px;
+    bottom: 10%;
+    right: 30%;
     transform: rotate(160deg);
 }
 
 .Onion3 {
     background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
-    height: 40px;
-    width: 15px;
+    height: 16%;
+    width: 6%;
     border-radius: 0 250px 250px 0;
     position: absolute;
-    top: 80px;
-    left: 40px;
+    top: 30%;
+    left: 10%;
     transform: rotate(135deg);
 }
 
 .Onion4 {
     background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
-    height: 40px;
-    width: 15px;
+    height: 16%;
+    width: 6%;
     border-radius: 0 250px 250px 0;
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+    bottom: 15%;
+    left: 20%;
     transform: rotate(235deg);
 }
 
 .Onion5 {
     background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
-    height: 40px;
-    width: 15px;
+    height: 16%;
+    width: 6%;
     border-radius: 0 250px 250px 0;
     position: absolute;
-    bottom: 160px;
-    right: 30px;
+    bottom: 50%;
+    right: 10%;
     transform: rotate(100deg);
+}
+
+.Onion6 {
+    background: linear-gradient(rgb(251, 223, 238), rgb(249, 141, 208));
+    height: 16%;
+    width: 6%;
+    border-radius: 0 250px 250px 0;
+    position: absolute;
+    bottom: 45%;
+    right: 45%;
+    transform: rotate(50deg);
 }
 
 .Anchovy1 {

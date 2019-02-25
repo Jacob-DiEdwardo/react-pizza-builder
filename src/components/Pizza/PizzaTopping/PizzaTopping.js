@@ -39,6 +39,11 @@ const pizzaTopping = (props) => {
                     <div className={classes.Sausage3}></div>
                     <div className={classes.Sausage4}></div>
                     <div className={classes.Sausage5}></div>
+                    <div className={classes.Sausage6}></div>
+                    <div className={classes.Sausage7}></div>
+                    <div className={classes.Sausage8}></div>
+                    <div className={classes.Sausage9}></div>
+                    <div className={classes.Sausage10}></div>
                 </div>
             )
             break;
@@ -49,6 +54,8 @@ const pizzaTopping = (props) => {
                     <div className={classes.Meatball2}></div>
                     <div className={classes.Meatball3}></div>
                     <div className={classes.Meatball4}></div>
+                    <div className={classes.Meatball5}></div>
+                    <div className={classes.Meatball6}></div>
                 </div>
             )
             break;
@@ -67,6 +74,12 @@ const pizzaTopping = (props) => {
                     <div className={classes.Mushroom4}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
+                    <div className={classes.Mushroom5}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
+                    <div className={classes.Mushroom6}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
                 </div>
             )
             break;
@@ -78,6 +91,7 @@ const pizzaTopping = (props) => {
                     <div className={classes.Onion3}></div>
                     <div className={classes.Onion4}></div>
                     <div className={classes.Onion5}></div>
+                    <div className={classes.Onion6}></div>
                 </div>
             )
             break;
@@ -155,10 +169,17 @@ const pizzaTopping = (props) => {
                     <div className={classes.Sausage3}></div>
                     <div className={classes.Sausage4}></div>
                     <div className={classes.Sausage5}></div>
+                    <div className={classes.Sausage6}></div>
+                    <div className={classes.Sausage7}></div>
+                    <div className={classes.Sausage8}></div>
+                    <div className={classes.Sausage9}></div>
+                    <div className={classes.Sausage10}></div>
                     <div className={classes.Meatball1}></div>
                     <div className={classes.Meatball2}></div>
                     <div className={classes.Meatball3}></div>
                     <div className={classes.Meatball4}></div>
+                    <div className={classes.Meatball5}></div>
+                    <div className={classes.Meatball6}></div>
                 </div>
             )
             break;
@@ -177,11 +198,18 @@ const pizzaTopping = (props) => {
                     <div className={classes.Mushroom4}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
+                    <div className={classes.Mushroom5}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
+                    <div className={classes.Mushroom6}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
                     <div className={classes.Onion1}></div>
                     <div className={classes.Onion2}></div>
                     <div className={classes.Onion3}></div>
                     <div className={classes.Onion4}></div>
                     <div className={classes.Onion5}></div>
+                    <div className={classes.Onion6}></div>
                     <div className={classes.Olive1}>
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
@@ -229,10 +257,17 @@ const pizzaTopping = (props) => {
                     <div className={classes.Sausage3}></div>
                     <div className={classes.Sausage4}></div>
                     <div className={classes.Sausage5}></div>
+                    <div className={classes.Sausage6}></div>
+                    <div className={classes.Sausage7}></div>
+                    <div className={classes.Sausage8}></div>
+                    <div className={classes.Sausage9}></div>
+                    <div className={classes.Sausage10}></div>
                     <div className={classes.Meatball1}></div>
                     <div className={classes.Meatball2}></div>
                     <div className={classes.Meatball3}></div>
                     <div className={classes.Meatball4}></div>
+                    <div className={classes.Meatball5}></div>
+                    <div className={classes.Meatball6}></div>
                     <div className={classes.Mushroom1}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
@@ -245,11 +280,18 @@ const pizzaTopping = (props) => {
                     <div className={classes.Mushroom4}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
+                    <div className={classes.Mushroom5}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
+                    <div className={classes.Mushroom6}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
                     <div className={classes.Onion1}></div>
                     <div className={classes.Onion2}></div>
                     <div className={classes.Onion3}></div>
                     <div className={classes.Onion4}></div>
                     <div className={classes.Onion5}></div>
+                    <div className={classes.Onion6}></div>
                     <div className={classes.Olive1}>
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
@@ -314,6 +356,12 @@ const pizzaTopping = (props) => {
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
                     <div className={classes.Mushroom4}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
+                    <div className={classes.Mushroom5}>
+                        <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
+                    </div>
+                    <div className={classes.Mushroom6}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
                 </div>
