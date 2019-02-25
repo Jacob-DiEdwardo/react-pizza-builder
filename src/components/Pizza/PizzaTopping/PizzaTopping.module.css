@@ -379,89 +379,129 @@
 }
 
 .Anchovy1 {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    top: 75px;
-    left: 110px;
+    top: 20%;
+    left: 28%;
     transform: rotate(240deg);
 }
 
 .Anchovy2 {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    top: 75px;
-    right: 115px;
+    top: 20%;
+    right: 25%;
     transform: rotate(300deg);
 }
 
 .Anchovy3 {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    bottom: 90px;
-    right: 110px;
-    transform: rotate(60deg);
+    bottom: 30%;
+    right: 18%;
+    transform: rotate(30deg);
 }
 
 .Anchovy4 {
-    width: 50px;
-    height: 50px;
+    width: 20%;
+    height: 20%;
     position: absolute;
-    bottom: 90px;
-    left: 110px;
-    transform: rotate(110deg);
+    bottom: 15%;
+    left: 40%;
+    transform: rotate(84deg);
+}
+
+.Anchovy5 {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    bottom: 32%;
+    left: 18%;
+    transform: rotate(150deg);
 }
 
 .AnchovyImage {
-    width: 50px;
-    height: 50px;
+    width: 80%;
+    height: 80%;
 }
 
 .Olive1 {
-    width: 20px;
-    height: 20px;
+    width: 8%;
+    height: 8%;
     position: absolute;
-    top: 50px;
-    left: 130px; 
+    top: 10%;
+    left: 30%; 
 }
 
 .Olive2 {
-    width: 20px;
-    height: 20px;
+    width: 8%;
+    height: 8%;
     position: absolute;
-    top: 100px;
-    right: 60px; 
+    top: 10%;
+    right: 28%; 
 }
 
 .Olive3 {
-    width: 20px;
-    height: 20px;
+    width: 8%;
+    height: 8%;
     position: absolute;
-    bottom: 80px;
-    right: 70px; 
+    bottom: 45%;
+    right: 5%;
 }
 
 .Olive4 {
-    width: 20px;
-    height: 20px;
+    width: 8%;
+    height: 8%;
     position: absolute;
-    bottom: 60px;
-    left: 110px; 
+    bottom: 5%;
+    right: 40%; 
 }
 
 .Olive5 {
-    width: 20px;
-    height: 20px;
+    width: 8%;
+    height: 8%;
     position: absolute;
-    bottom: 170px;
-    left: 50px; 
+    bottom: 20%;
+    left: 10%;
+}
+
+.Olive6 {
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    bottom: 40%;
+    left: 30%; 
+}
+
+.Olive7 {
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    bottom: 40%;
+    right: 30%; 
+}
+
+.Olive8 {
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    top: 30%;
+    left: 45%; 
+}
+
+.Olive9 {
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    bottom: 50%;
+    left: 0%; 
 }
 
 .OliveImage {
-    width: 20px;
-    height: 20px;
+    width: 100%;
 }
 
 .Pepper1 {

@@ -110,6 +110,9 @@ const pizzaTopping = (props) => {
                     <div className={classes.Anchovy4}>
                         <img className={classes.AnchovyImage} src={Anchovy} alt='anchovy' />
                     </div>
+                    <div className={classes.Anchovy5}>
+                        <img className={classes.AnchovyImage} src={Anchovy} alt='anchovy' />
+                    </div>
                 </div>
             )
             break;
@@ -129,6 +132,18 @@ const pizzaTopping = (props) => {
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
                     <div className={classes.Olive5}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive6}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive7}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive8}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive9}>
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
                 </div>
@@ -225,6 +240,18 @@ const pizzaTopping = (props) => {
                     <div className={classes.Olive5}>
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
+                    <div className={classes.Olive6}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive7}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive8}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive9}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
                     <div className={classes.Pepper1}>
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
@@ -307,6 +334,18 @@ const pizzaTopping = (props) => {
                     <div className={classes.Olive5}>
                         <img className={classes.OliveImage} src={Olive} alt='olive' />
                     </div>
+                    <div className={classes.Olive6}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive7}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive8}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
+                    <div className={classes.Olive9}>
+                        <img className={classes.OliveImage} src={Olive} alt='olive' />
+                    </div>
                     <div className={classes.Pepper1}>
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
@@ -332,6 +371,9 @@ const pizzaTopping = (props) => {
                         <img className={classes.AnchovyImage} src={Anchovy} alt='anchovy' />
                     </div>
                     <div className={classes.Anchovy4}>
+                        <img className={classes.AnchovyImage} src={Anchovy} alt='anchovy' />
+                    </div>
+                    <div className={classes.Anchovy5}>
                         <img className={classes.AnchovyImage} src={Anchovy} alt='anchovy' />
                     </div>
                 </div>
