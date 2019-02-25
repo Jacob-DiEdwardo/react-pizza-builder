@@ -167,6 +167,9 @@ const pizzaTopping = (props) => {
                     <div className={classes.Pepper5}>
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
+                    <div className={classes.Pepper6}>
+                        <img className={classes.PepperImage} src={Pepper} alt='pepper' />
+                    </div>
                 </div>
             )
             break;
@@ -267,6 +270,9 @@ const pizzaTopping = (props) => {
                     <div className={classes.Pepper5}>
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
+                    <div className={classes.Pepper6}>
+                        <img className={classes.PepperImage} src={Pepper} alt='pepper' />
+                    </div>
                 </div>
             )
             break;
@@ -359,6 +365,9 @@ const pizzaTopping = (props) => {
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
                     <div className={classes.Pepper5}>
+                        <img className={classes.PepperImage} src={Pepper} alt='pepper' />
+                    </div>
+                    <div className={classes.Pepper6}>
                         <img className={classes.PepperImage} src={Pepper} alt='pepper' />
                     </div>
                     <div className={classes.Anchovy1}>

@@ -505,47 +505,55 @@
 }
 
 .Pepper1 {
-    width: 25px;
-    height: 25px;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    top: 20px;
-    left: 120px; 
+    top: 5%;
+    left: 45%;
 }
 
 .Pepper2 {
-    width: 25px;
-    height: 25px;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    top: 80px;
-    right: 30px; 
+    top: 30%;
+    right: 10%; 
 }
 
 .Pepper3 {
-    width: 25px;
-    height: 25px;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    bottom: 70px;
-    right: 40px; 
+    bottom: 10%;
+    right: 27%; 
 }
 
 .Pepper4 {
-    width: 25px;
-    height: 25px;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    bottom: 20px;
-    left: 100px; 
+    bottom: 5%;
+    left: 12%; 
 }
 
 .Pepper5 {
-    width: 25px;
-    height: 25px;
+    width: 30%;
+    height: 30%;
     position: absolute;
-    bottom: 160px;
-    left: 10px; 
+    top: 28%;
+    left: 24%; 
+}
+
+.Pepper6 {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    bottom: 16%;
+    right: -10%; 
 }
 
 .PepperImage {
-    width: 25px;
-    height: 25px
+    width: 50%;
+    height: 50%;
 }
 
