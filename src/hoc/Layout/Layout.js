@@ -5,7 +5,6 @@ import classes from "./Layout.module.css";
 import Aux from '../Auxiliary/Auxiliary';
 import Navbar from '../../components/Navigation/Navbar/Navbar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
-import Footer from '../../components/Navigation/Footer/Footer';
 
 class Layout extends Component {
     state = {
@@ -35,7 +34,6 @@ class Layout extends Component {
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>
-                <Footer />
             </Aux>
         );
     }
