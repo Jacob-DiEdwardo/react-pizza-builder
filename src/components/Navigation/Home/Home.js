@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 
 import classes from './Home.module.css';
+import Footer from '../Footer/Footer';
 
 class Home extends Component {
     render() {
@@ -30,6 +31,7 @@ class Home extends Component {
                     <p>Fri-Sat 11AM - 11PM</p>
                     <p>Closed Sunday</p>
                 </div>
+                <Footer />
             </div>
         );
     }

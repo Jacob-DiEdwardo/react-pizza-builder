@@ -28,11 +28,20 @@
 
 .Information {
     display: inline-block;
-    width: 500px;
+    width: 400px;
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     background-color: green;
     color: white;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
+}
+
+@media (max-width: 499px) {
+    .Title {
+        font-size: 1.5em;
+    }
+    .Information {
+        width: 250px;
+    }
 }
