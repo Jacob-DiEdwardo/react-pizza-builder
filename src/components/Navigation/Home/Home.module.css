@@ -37,6 +37,11 @@
     margin-bottom: 120px;
 }
 
+.Map {
+    display: inline-block;
+    width: 400px;
+}
+
 @media (max-width: 499px) {
     .Title {
         font-size: 1.5em;
