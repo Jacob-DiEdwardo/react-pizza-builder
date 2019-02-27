@@ -19,6 +19,18 @@ const pizzaTopping = (props) => {
         case ('cheese'):
             ingredient = <div className={classes.Cheese}>{props.children}</div>
             break;
+        case ('Onions'):
+            ingredient = (
+                <div className={classes.IngredientLayer}>
+                    <div className={classes.Onion1}></div>
+                    <div className={classes.Onion2}></div>
+                    <div className={classes.Onion3}></div>
+                    <div className={classes.Onion4}></div>
+                    <div className={classes.Onion5}></div>
+                    <div className={classes.Onion6}></div>
+                </div>
+            )
+            break;
         case ('Pepperoni'):
             ingredient = (
                 <div className={classes.IngredientLayer}>
@@ -80,18 +92,6 @@ const pizzaTopping = (props) => {
                     <div className={classes.Mushroom6}>
                         <img className={classes.MushroomImage} src={Mushroom} alt='mushroom' />
                     </div>
-                </div>
-            )
-            break;
-        case ('Onions'):
-            ingredient = (
-                <div className={classes.IngredientLayer}>
-                    <div className={classes.Onion1}></div>
-                    <div className={classes.Onion2}></div>
-                    <div className={classes.Onion3}></div>
-                    <div className={classes.Onion4}></div>
-                    <div className={classes.Onion5}></div>
-                    <div className={classes.Onion6}></div>
                 </div>
             )
             break;
