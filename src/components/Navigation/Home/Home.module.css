@@ -1,3 +1,7 @@
+* {
+    transition: 1s;
+}
+
 .Home {
     text-align: center;
 }
@@ -16,7 +20,7 @@
     font-family: inherit;
     font-size: 1.2em;
     padding: 15px 30px;
-    margin: 30px;
+    margin-bottom: 50px;
     box-shadow: 2px 2px 2px #966909;
 }
 
@@ -26,20 +30,41 @@
     color: #966909;
 }
 
+.InformationSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .Information {
     display: inline-block;
     width: 400px;
+    height: 300px;
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     background-color: green;
     color: white;
+}
+
+.Information h2 {
     margin-top: 50px;
-    margin-bottom: 120px;
 }
 
 .Map {
-    display: inline-block;
     width: 400px;
+}
+
+@media (max-width: 899px) {
+    .InformationSection {
+        flex-direction: column;
+    }
+    .Information {
+        margin-bottom: 50px;
+    }
+    .Map {
+        margin-bottom: 150px;
+    }
 }
 
 @media (max-width: 499px) {
@@ -48,5 +73,9 @@
     }
     .Information {
         width: 250px;
+        height: 250px;
+    }
+    .Information h2 {
+        margin-top: 30px;
     }
 }

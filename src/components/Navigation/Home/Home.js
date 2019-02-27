@@ -25,7 +25,7 @@ class Home extends Component {
                         <button>ORDER NOW!</button>
                     </NavLink>
                 </div>
-                <div>
+                <div className={classes.InformationSection}>
                     <div className={classes.Information}>
                         <h2>(555) 555-5555</h2>
                         <h3>Hours:</h3>
