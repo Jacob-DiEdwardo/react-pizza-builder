@@ -7,7 +7,7 @@ const map = () => {
             <iframe 
                 frameBorder="0"
                 title="map"
-                src="https://www.google.com/maps/embed/v1/place?q=11500%20Yamato%20Rd%2C%20Boca%20Raton%2C%20FL%2033498&key=AIzaSyAVh193EPwfgZtLArgwDCAs1MHRl7wDsNY">
+                src="https://www.google.com/maps/embed/v1/place?q=11500%20Yamato%20Rd%2C%20Boca%20Raton%2C%20FL%2033498&key=[KEY]">
             </iframe>
         </div>
     );
