@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import StripeCheckout from 'react-stripe-checkout';
 
-import Button from '../../../components/UI/Button/Button';
 import Spinner from '../../../components/UI/Spinner/Spinner';
 import classes from './ContactData.module.css';
-import axios from '../../../axios-orders';
+import axios from 'axios';
+import STRIPE_PUBLISHABLE from '../../../shared/stripe';
+import PAYMENT_SERVER_URL from '../../../shared/server';
+import axiosOrders from '../../../axios-orders';
 import Input from '../../../components/UI/Input/Input';
 import withErrorHandler from '../../../hoc/withErrorHandler/withErrorHandler';
 import * as actions from '../../../store/actions/index';
@@ -105,8 +108,7 @@ class ContactData extends Component {
         this.props.onClearCart();
     }
 
-    orderHandler = (event) => {
-        event.preventDefault();
+    orderHandler = () => {
         const formData = {};
         for (let formElementIdentifier in this.state.orderForm) {
             formData[formElementIdentifier] = this.state.orderForm[formElementIdentifier].value;
@@ -138,6 +140,24 @@ class ContactData extends Component {
         this.setState({orderForm: updatedOrderForm, formIsValid: formIsValid});
     }
 
+    fromDollarToCent = amount => amount * 100;
+
+    onToken = (amount, description) => token =>
+        axios.post(PAYMENT_SERVER_URL,
+            {
+                description,
+                source: token.id,
+                currency: "USD",
+                amount: this.fromDollarToCent(amount)
+            })
+            .then(res => {
+                alert('Payment Successful');
+                this.orderHandler();
+            })
+            .catch(err => {
+                alert('Payment Error');
+            });
+
     render() { 
         const formElementsArray = [];
         for (let key in this.state.orderForm) {
@@ -148,7 +168,7 @@ class ContactData extends Component {
         }
 
         let form = (
-            <form onSubmit={this.orderHandler}>
+            <form onSubmit={event => event.preventDefault()}>
                 {formElementsArray.map(formElement => (
                     <Input
                         key={formElement.id}
@@ -161,7 +181,15 @@ class ContactData extends Component {
                         valueType={formElement.config.elementConfig.placeholder}
                         changed={(event) => this.inputChangedHandler(event, formElement.id)} />
                 ))}
-                <Button btnType='Success' disabled={!this.state.formIsValid}>ORDER</Button>
+                {this.state.formIsValid ?
+                    <StripeCheckout 
+                        name="Joe"
+                        description="Pizza Order"
+                        amount={this.fromDollarToCent(this.props.prc)}
+                        token={this.onToken(this.props.prc, "Pizza Order")}
+                        currency="USD"
+                        stripeKey={STRIPE_PUBLISHABLE}
+                    /> : null}
             </form>
         );
         if (this.props.loading) {
@@ -193,4 +221,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
  
-export default connect(mapStateToProps, mapDispatchToProps)(withErrorHandler(ContactData, axios));
+export default connect(mapStateToProps, mapDispatchToProps)(withErrorHandler(ContactData, axiosOrders));
