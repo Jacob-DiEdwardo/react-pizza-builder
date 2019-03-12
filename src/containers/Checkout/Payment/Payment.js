@@ -22,6 +22,7 @@ class Payment extends Component {
             })
             .catch(err => {
                 alert('Payment Error');
+                console.log(err);
             });
     
     render () {
