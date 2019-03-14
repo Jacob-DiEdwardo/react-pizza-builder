@@ -20,3 +20,9 @@
 .DetailsList li {
     list-style: none;
 }
+
+@media (max-width: 799px) {
+    .Order {
+        width: 90%;
+    }
+}
