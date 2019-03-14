@@ -110,7 +110,7 @@ class ContactData extends Component {
         for (let formElementIdentifier in this.state.orderForm) {
             formData[formElementIdentifier] = this.state.orderForm[formElementIdentifier].value;
         }
-        let orderDate = new Date().toUTCString();
+        let orderDate = new Date().toDateString();
         const order = {
             pizzas: this.props.cart,
             price: this.props.prc,
