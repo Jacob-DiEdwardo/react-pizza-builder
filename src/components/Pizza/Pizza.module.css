@@ -3,9 +3,9 @@
     position: relative;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
     .Pizza {
-        width: 1000px;
+        width: 90vh;
         margin: 0 auto 20px auto;
     }
 }
