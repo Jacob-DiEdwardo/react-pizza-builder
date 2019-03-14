@@ -16,3 +16,7 @@
 .Details:hover {
     cursor: pointer;
 }
+
+.DetailsList li {
+    list-style: none;
+}

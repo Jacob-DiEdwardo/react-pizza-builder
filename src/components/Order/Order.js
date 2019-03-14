@@ -23,7 +23,7 @@ class Order extends Component {
         for (let pizza in this.props.pizzas) {
             orderDetails.push(
                 <li key={pizza}>
-                    <ul>
+                    <ul className={classes.DetailsList}>
                         <li>Price: ${this.props.pizzas[pizza].price.toFixed(2)}</li>
                         <li>Toppings: {this.props.pizzas[pizza].toppings.join(', ')}</li>
                     </ul>
