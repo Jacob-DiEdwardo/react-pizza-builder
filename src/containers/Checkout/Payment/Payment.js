@@ -4,6 +4,7 @@ import StripeCheckout from 'react-stripe-checkout';
 
 import STRIPE_PUBLISHABLE from '../../../shared/stripe';
 import PAYMENT_SERVER_URL from '../../../shared/server';
+import pizzaLogo from "../../../assets/images/pizza-logo.png";
 
 class Payment extends Component {
     dollarToCentHandler = amount => amount * 100;
@@ -33,6 +34,7 @@ class Payment extends Component {
                 amount={this.dollarToCentHandler(this.props.amount)}
                 token={this.onToken(this.props.amount, 'Pizza Order')}
                 currency='USD'
+                image={pizzaLogo}
                 stripeKey={STRIPE_PUBLISHABLE}
             />
         );
