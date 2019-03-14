@@ -19,7 +19,7 @@ class Payment extends Component {
             })
             .then(res => {
                 alert('Payment Successful');
-                this.props.submitOrder();
+                this.props.submitOrder(res.data.success.id);
             })
             .catch(err => {
                 alert('Payment Error');

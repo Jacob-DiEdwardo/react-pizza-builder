@@ -105,7 +105,7 @@ class ContactData extends Component {
         this.props.onClearCart();
     }
 
-    orderHandler = () => {
+    orderHandler = (paymentId) => {
         const formData = {};
         for (let formElementIdentifier in this.state.orderForm) {
             formData[formElementIdentifier] = this.state.orderForm[formElementIdentifier].value;
@@ -116,7 +116,8 @@ class ContactData extends Component {
             price: this.props.prc,
             userData: formData,
             userId: this.props.userId,
-            orderDate: orderDate
+            orderDate: orderDate,
+            paymentId: paymentId
         }
         this.props.onPurchasePizza(order, this.props.token);
     }
